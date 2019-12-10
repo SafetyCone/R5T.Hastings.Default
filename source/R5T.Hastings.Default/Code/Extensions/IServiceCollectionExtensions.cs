@@ -20,7 +20,7 @@ namespace R5T.Hastings.Default
 
             services
                 .Configure<RawMachineConfiguration>()
-                .ConfigureOptions<MachineConfiguration>()
+                .ConfigureOptions<MachineConfigurationConfigureOptions>()
                 .AddSingleton<IMachineLocationProvider, MachineLocationProvider>()
                 ;
 
