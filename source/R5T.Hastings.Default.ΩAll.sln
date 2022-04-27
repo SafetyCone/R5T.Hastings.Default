@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Hastings.Default.Constr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Hastings.Default.Testing", "R5T.Hastings.Default.Testing\R5T.Hastings.Default.Testing.csproj", "{5B58BC9A-3639-4CFD-828F-923669FD5369}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{0FF550E9-0E86-49AB-91EC-9354FA0D0CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{9769D503-8E74-4F1B-8366-9BDE46FA20BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{5B58BC9A-3639-4CFD-828F-923669FD5369}.Release|x64.Build.0 = Release|Any CPU
 		{5B58BC9A-3639-4CFD-828F-923669FD5369}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B58BC9A-3639-4CFD-828F-923669FD5369}.Release|x86.Build.0 = Release|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Debug|x64.Build.0 = Debug|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Debug|x86.Build.0 = Debug|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Release|x64.ActiveCfg = Release|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Release|x64.Build.0 = Release|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9769D503-8E74-4F1B-8366-9BDE46FA20BF} = {0FF550E9-0E86-49AB-91EC-9354FA0D0CB7}
 	EndGlobalSection
 EndGlobal
